@@ -1,5 +1,8 @@
 # Serum DEX UI
 
+
+
+
 An implementation of a UI for the Serum DEX.
 
 ### Running the UI
@@ -21,7 +24,7 @@ NOTE: remember to re-build your app before deploying for your referral addresses
 It is now required to add OHLCV candles built from on chain data using [Bonfida's API](https://docs.bonfida.com). Here is how to do it:
 
 1. Get access to the [TradingView Charting Library](https://github.com/tradingview/charting_library/) repository. This is a **private repository** and it will **return a 404 if you don't have access to it**. To get access to the repository please refer to [TradingView's website](https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/)
-
++
 2. Once you have access to the Charting Library repository:
 
 - Copy `charting_library` folder from https://github.com/tradingview/charting_library/ to `/public` and to `/src` folders.
